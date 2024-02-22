@@ -20,8 +20,8 @@ def save_emails_to_files(divided_emails, output_dir):
         pd.DataFrame({'Emails': group}).to_excel(output_file, index=False)
 
 # Exemplo de uso
-file_path = 'C:/Users/TI003/Downloads/email-collection.xlsx'
-output_dir = 'C:/Users/TI003/OneDrive - BONAMAISON COMERCIO E SERVICOS DE MOVEIS E ACESSO/Documentos/script-python'
+file_path = 'caminho/para/o/arquivo/excel.xlsx'
+output_dir = 'caminho/para/salvar/os/arquivos/gerados'
 
 divided_emails = divide_emails(file_path)
 
